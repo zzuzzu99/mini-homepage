@@ -1,0 +1,16 @@
+h2{
+    font-family: 'Nanum Pen Script' ,cursive;
+    text-align: center;
+
+}
+
+#img1{
+    width: 70%;
+    height: 70vh;
+    margin: auto;
+}
+.text>p{
+    font-size: 40px;
+    color: rgba(79, 98, 114, 0.221);
+    margin-left: 25%;
+}

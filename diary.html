@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel ='stylesheet' href = './font.css'/>
+    <link rel ='stylesheet' href = './home.css'/>
+    <link rel ='stylesheet' href = './layout.css'/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Single+Day&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/236c80fd67.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class = 'container1'>
+            <div class = 'column1'>TODAY <span>100</span> / TOTAL <span>24142</span></div>
+            <div class = 'box1'>
+              <img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLjuyXdivwB2zw4OJhA_Tv-Wop4TGeSl88Zncbo2OD4g&s'>
+              <div class = 'text1'>안녕하세요 코딩공부를 하고 있는 미래의 개발자입니다. 코딩을 공부하고 있지만 너무 어렵네요 ㅠㅠ</div>
+              <div class = 'text2'>코딩중인 개발자 ＼(^0^)/</div>
+              <div class="dropdown">
+                <select title="" onchange="window.open(value,'_self');">
+                    <option value="none" selected disabled hidden><a class="dropdown-item" href="#">파도타기</a></option>
+                    <option value="https://codemate.kr/" >코뮤니티로 가기</option>
+                    <option value="https://instagram.com">인스타 가기</option>
+                    <option value="https://zzuzzu-99.tistory.com/">블로그 가기</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class = 'container2'>
+            <div class = 'title'>
+              <div class = 'column2'>쭈쭈의 추억상자</div>
+              <div class = 'column3'>http://url주소 나중에 입력</div>
+            </div>     
+            <div class = 'box2'>
+              <div class = 'daybox'>
+                <div class = 'today'>
+                    <div class = 't1'>wed</div>
+                    <div class = 't2'>07-29</div>
+                </div>
+                <div class = 'cal'>
+                    <span class = 'day'>1</span>
+                    <span class = 'sat'>2</span>
+                    <span class = 'sun'>3</span>
+                    <span class = 'day'>4</span>
+                    <span class = 'day'>5</span>
+                    <span class = 'day'>6</span>
+                    <span class = 'day'>7</span>
+                    <span class = 'day'>8</span>
+                    <span class = 'sat'>9</span>
+                    <span class = 'sun'>10</span>
+                    <span class = 'day'>11</span>
+                    <span class = 'day'>12</span>
+                    <span class = 'day'>13</span>
+                    <span class = 'day'>14</span>
+                    <span class = 'day'>15</span>
+                    <span class = 'sat'>16</span>
+                    <span class = 'sun'>17</span>
+                    <span class = 'day'>18</span>
+                    <span class = 'day'>19</span>
+                    <span class = 'day'>20</span>
+                    <span class = 'day'>21</span>
+                    <span class = 'day'>22</span>
+                    <span class = 'sat'>23</span>
+                    <span class = 'sun'>24</span>
+                    <span class = 'day'>25</span>
+                    <span class = 'day'>26</span>
+                    <span class = 'day'>27</span>
+                    <span class = 'day'>28</span>
+                    <span class = 'day'>29</span>
+                    <span class = 'sat'>30</span>
+                    <span class = 'sun'>31</span>
+                </div>
+              </div>
+              <div class = 'diarybox'>
+
+                <div class = 'dboxs'>
+                    <div class = 'dday'>2020-07-20 수 20:30</div>
+                    <div class = 'dbox'>
+                        <div>오늘은 미니홈피를 만들었다.<br>
+                        진짜 만들기 너무 귀찮다.<br>
+                        그래도 슬슬 다 끝이 보이니<br>
+                        조금만 힘내자..<br>
+                        화이팅!</div>
+                    </div>
+                </div>
+
+                <div class= 'dboxs'>
+                    <div class = 'dday'>2020-07-19 월 21:30</div>
+                    <div class = 'dbox'>
+                        <div>오늘은 알바마치고<br>
+                        고등학교 친구들과 <br>
+                        술 한잔 하였다.<br>
+                        공부 해야하는데 큰일이다<br>
+                        술 끊어야지</div>
+                    </div>
+                </div>
+
+                <div class= 'dboxs'>
+                    <div class = 'dday'>2020-07-18 일 12:30</div>
+                    <div class = 'dbox'>
+                        <div>오늘은 아침에 운동갔다<br>
+                        피시방 가서  <br>
+                        게임을 했다.<br>
+                        하루종일 했는데<br>
+                        롤 점수가 그대로임,,</div>
+                    </div>
+                </div>
+                
+                <div class = 'button_box'>
+                    <button class = 'secret_diary' onclick="getTextFile()"><i class="fa-solid fa-lock">쭈쭈의 비밀 일기보기</i></button>
+                    <div class="dboxs" id="secret-box">
+                        <div class="dday">쭈쭈의 비밀 일기</div>
+                        <div class="dbox" id="secret-diary"></div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = 'container3'>
+            <div class = 'box3'>
+              <div class = 'menu1'><a href = '../home.html'>홈</a></div>
+              <div class = 'menu2'><a href = '../diary.html'>다이어리</a></div>
+              <div class = 'menu3'><a href = '../photobox.html'>사진첩</a></div>
+              <div class = 'menu4'><a href = '../guest.html'>방명록</a></div>
+            </div>
+          </div> 
+
+        </div>
+      </div>
+    </div>
+    <script>
+          function getTextFile() {
+        var input = document.createElement("input");
+        input.type = "file";
+        input.accept = "text/plain";
+        input.onchange = function (event) {
+          processFile(event.target.files[0]);
+        };
+        input.click();
+      }
+
+
+      function processFile(file) {
+        var reader = new FileReader();
+        reader.readAsText(file, "utf-8");
+
+
+        reader.onload = function () {
+          document.getElementById("secret-diary").innerText = reader.result;
+          document.getElementById("secret-box").style.display = "block";
+        };
+      }
+    </script>
+    
+  </body>
+</html>

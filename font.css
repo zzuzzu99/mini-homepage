@@ -1,0 +1,128 @@
+.title{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+    
+    justify-content: space-between
+}
+.column span{
+    color: red;
+}
+.box2 .line1{
+    background-color: black;
+    width: 95%;
+    height: 1px;
+    margin-top : 4px;
+    margin-left : 12px;
+}
+.box1 .text1{
+    margin-top : 30px;
+    font-family: 'Single Day',cursive;
+    text-align: center;
+}
+.box1 .text2{
+    margin-top: 30%;
+    text-align: center;
+}
+.box2 .text3{
+    margin-top : 18px;
+    margin-left : 12px;
+    color: rgb(129, 129, 223);
+    font-size: larger;
+    font-weight: bolder;
+}
+.text{
+    font-family: 'Single Day',cursive;
+    font-weight: 300;
+}
+.text>span{
+    background-color: rgb(248, 75, 75);
+    color: white;   
+}
+.texts{
+    font-family: 'Single Day',cursive;
+    font-weight: 300;
+}
+.texts>span{
+    background-color: rgb(96, 96, 252);
+    color: white;   
+}
+
+.sbox2{
+    flex : 60%;
+    font-family: 'Single Day',cursive;
+    font-weight: 300;
+       
+}
+.text4{
+    margin-top : 30px;
+    margin-left : 12px;
+    color: rgb(129, 129, 223);
+    font-size: larger;
+    font-weight: bolder;
+}
+.line2{
+    background-color: black;
+    width: 95%;
+    height: 1px;
+    margin-top : 4px;
+    margin-left : 12px;
+}
+.sbox2>span{
+    color: rgb(71, 71, 236);
+}
+.line3{
+    border : 1px  dotted black;
+    margin-left : 5px;
+    margin-top : 2px;
+}
+
+.line4{
+    border : 1px  dotted black;
+    margin-left : 5px;
+    margin-top : 2px;
+}
+.t>span{
+    color: blue;
+}
+.box3 button{
+    text-align: left;
+    
+    
+}
+.box3 a{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+}
+.ptext{
+    margin-top: 5px;
+    font-family: 'Single Day',cursive;
+    margin : auto;
+    width: 90%;
+    height: 25px;
+    background-color: rgba(239, 211, 211, 0.911);
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.day{
+    color : rgba(142, 141, 141, 0.523);
+}
+.sat{
+    color : rgb(39, 142, 245);
+}
+.sun{
+    color: rgba(254, 93, 93, 0.897);
+}
+.today{
+    color: rgba(39, 142, 245, 0.804);
+}
+.title{
+    font-family: 'Single Day',cursive;
+}
+.column1{
+    font-family: 'Single Day',cursive;
+}

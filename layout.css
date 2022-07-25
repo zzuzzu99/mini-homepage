@@ -1,0 +1,207 @@
+.container1{
+    display: flex;
+    flex : 0.4;
+    height: 100%;
+    flex-direction: column;
+    margin-right: 22px;
+}
+.column1{
+    margin-top: 15px;
+    text-align: center;
+    margin-left : 3px;
+    margin-right: 3px;
+
+}
+.box1{
+    margin-top: 10%;
+    height: 85%;
+    width: 100%;
+    background-color: white;
+    margin-left : 10px;
+    margin-right: 10px;
+}
+.box1>img{
+    margin-top : 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width : 170px;
+    height: 200px;
+}
+.dropdown{
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.dropdown-toggle{
+    width : 90%;
+}
+.container2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width : 60%;
+    height: 100%;
+    margin-right: 10px;
+   
+}
+.column3{
+    text-align: end;
+    margin-right: 10px;
+}
+.box2{
+    margin-top : 4%;
+    height: 85%;
+    width: 100%;
+    background-color: white;
+    margin-right: 10px;
+    margin-left : 10px;
+}
+.container3{
+    flex:0.2;
+    width : 60%;
+    height: 40%;
+    margin-right: 15px;
+    margin-top: 60px; 
+}
+
+.sboxs{
+    display: flex;
+    margin-top: 5px;
+    width : 100%;
+    height: 25%;
+}
+.sbox1{
+    flex : 40%;
+    margin-left: 12px;
+    margin-top:5px;
+    
+}
+.sbox_1{
+    display: flex;
+    margin-top : 5px;
+    margin-right: 50px;
+    margin-left : 5px;
+    justify-content: space-between;
+}
+.sbox_2{
+    display: flex;
+    margin-right: 50px;
+    margin-left : 5px;
+    justify-content: space-between;
+}
+.box2>img{
+    margin-left : 12px;
+    width: 95%;
+    height: 260px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+.box3>div{
+    font-size: 13px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(154, 157, 234);
+    margin-top : 15px;
+    padding: 7px;
+}
+.box3 a:link{color : white}
+
+
+.box3 a:visited{
+    background-color: black;
+}
+.box3 div:hover{
+    background-color: rgb(71, 86, 227);
+}
+.box3 div:active{
+    background-color: rgb(71, 86, 227);
+}
+
+.daybox{
+    position: absolute;
+    display: flex;
+    width: 55%;
+    height: 4rem;
+    margin-right: 10px;
+    margin-left : 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border : 2px solid rgba(125, 121, 121, 0.767);
+    border-radius: 2%;
+}
+
+.today{
+    flex : 0.2;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.cal{
+    flex : 1;
+    font-size: larger;
+    font-weight: bolder;
+}
+.diarybox{
+    position: absolute;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    width : 58%;
+    margin-right: 10px;
+    margin-left : 10px;
+    margin-top : 5.5rem;
+    height: 70%;
+}
+
+
+.dboxs{
+    width: 100%;
+    
+    border : 2px solid rgba(125, 121, 121, 0.767);
+    
+    margin-bottom: 30px;
+}
+.dday{
+    color : rgb(71, 71, 236);
+    font-family: 'Dongle',cursive;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-left : 8px;
+}
+.dbox{
+    font-family: 'Single Day',cursive;
+    text-align: center;
+    font-size : 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.button_box{
+    font-family: 'Single Day' ,cursive;
+
+}
+.secret_diary{
+    background-color: white;
+    color: white;
+    
+    margin: 0 auto;
+    height: 50px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    margin: auto; 
+    display: block;  
+}
+.secret_diary:hover{
+    background-color: cadetblue;
+    color : white;
+    border : none;
+}
+
+#secret-box {
+    display: none;
+}
